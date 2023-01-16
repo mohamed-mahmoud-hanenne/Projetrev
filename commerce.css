@@ -47,13 +47,17 @@
 .sous-head img{
     width: 1330px;
     height: 400px;
+
 }
 
 .prod{
     width: 1330px;
     height: 410px;
-    background-color:gainsboro
+    background-color:gainsboro;
+    margin-top: 60px;
 }
+
+
 
 .img1{
     width: 250px;
@@ -61,9 +65,10 @@
     margin-left: 40px;
     background-color:white;
     
+    
 }
 
-/* fhfudjfdh */
+
 
 .img1 img{
     width: 130px;
@@ -82,10 +87,11 @@
 }
 
 .img2{
-    width: 180px;
-    height: 180px;
-    margin-left: 40px;
+    width: 250px;
+    height: 280px;
     background-color:white;
+    margin-left: 500px;
+    margin-top: -280px;
 }
 
 .img2 .fa-solid{
@@ -97,13 +103,13 @@
 .img2 img{
     width: 130px;
     height: 110px;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 20px;
 }
 
 .img2 i{
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .img3 img{
@@ -111,13 +117,7 @@
     height: 300px;
     margin-top: 15px;
 }
-.img2{
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
-    margin-left: 500px;
-    margin-top: -280px;
-}
+
 
 .img3{
     width: 300px;
@@ -177,7 +177,7 @@
 }
 
 .img2 h3{
-    margin-left: 110px;
+    margin-left: 90px;
    
 }
 
@@ -189,4 +189,22 @@
 .img3 h3{
     margin-left: 110px;
    
+}
+
+.prom{
+    width: 1330px;
+    height: 410px;
+    background-color:blueviolet;
+    margin-top: 60px;
+}
+
+.prm label{
+    font-size: 30px;
+    color: blue;
+}
+
+.prm{
+font-family: 'Changa';
+text-align: center;
+margin-top: 40px;
 }
