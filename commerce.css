@@ -1,0 +1,189 @@
+.head{
+    background-color: rgba(8, 8, 235, 0.59);
+    font-family: 'Changa';
+}
+
+.logo{  
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+.title i{
+    color: orange;
+}
+
+.liens {
+    margin-left: 600px;
+   
+}
+.liens a{
+    text-decoration: none;
+    margin: 20px;
+    color: aliceblue;
+    
+}
+.options{
+    margin-left: 600px;
+    margin-top: -35px;
+}
+
+.options i{
+    margin: 10px;
+    color: aliceblue;
+}
+
+
+.sous-head{
+    width: 1330px;
+    height: 400px;
+    margin: 5px;
+}
+
+.sous-head p{
+    text-align: center;
+
+}
+
+.sous-head img{
+    width: 1330px;
+    height: 400px;
+}
+
+.prod{
+    width: 1330px;
+    height: 410px;
+    background-color:gainsboro
+}
+
+.img1{
+    width: 250px;
+    height: 280px;
+    margin-left: 40px;
+    background-color:white;
+    
+}
+.img1 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.img1 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+
+}
+.img1 i{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.img2{
+    width: 180px;
+    height: 180px;
+    margin-left: 40px;
+    background-color:white;
+}
+
+.img2 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+
+}
+
+.img2 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.img2 i{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.img3 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-left: 500px;
+    margin-top: -280px;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+    margin-left: 1000px;
+    margin-top: -300px;
+  
+}
+
+.img3{
+    width: 250px;
+    height: 280px;
+    background-color:white;
+    
+}
+
+.img3 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.img3 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+
+}
+.img3 i{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.pro{
+    font-family: 'Changa';
+    text-align: center;
+   
+}
+
+.pro label{
+    font-size: 30px;
+   color: blue;
+}
+
+.img1 label{
+    margin-left: 60px;
+   
+}
+
+.img1 h3{
+    margin-left: 95px;
+   
+}
+
+.img2 label{
+    margin-left: 60px;
+   
+}
+
+.img2 h3{
+    margin-left: 110px;
+   
+}
+
+.img3 label{
+    margin-left: 100px;
+   
+}
+
+.img3 h3{
+    margin-left: 110px;
+   
+}
