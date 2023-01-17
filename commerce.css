@@ -119,18 +119,14 @@
 }
 
 
-.img3{
-    width: 300px;
-    height: 300px;
-    margin-left: 1000px;
-    margin-top: -300px;
-  
-}
+
 
 .img3{
     width: 250px;
     height: 280px;
     background-color:white;
+    margin-left: 1000px;
+    margin-top: -300px;
     
 }
 
@@ -143,7 +139,6 @@
 .img3 .fa-solid{
     color:  rgba(8, 8, 235, 0.59);
  
-
 }
 .img3 i{
     margin-top: 20px;
@@ -153,12 +148,19 @@
 .pro{
     font-family: 'Changa';
     text-align: center;
-   
+    margin-top: 60px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: rgba(8, 8, 235, 0.59);
+    width: 300px;
+    height: 50px;
+    margin-left: 500px;
 }
 
 .pro label{
     font-size: 30px;
-   color: blue;
+    color: white;
+   
 }
 
 .img1 label{
@@ -194,17 +196,67 @@
 .prom{
     width: 1330px;
     height: 410px;
-    background-color:blueviolet;
+    background-color:gainsboro;
     margin-top: 60px;
 }
 
 .prm label{
     font-size: 30px;
-    color: blue;
+    color: white;
 }
 
 .prm{
 font-family: 'Changa';
 text-align: center;
 margin-top: 40px;
+border: 1px solid;
+border-radius: 15px;
+background-color: rgba(8, 8, 235, 0.59);
+width: 300px;
+height: 50px;
+margin-left: 500px;
+}
+
+.img11 h4{
+    text-decoration:line-through;
+    margin-left: 100px;
+    font-family: "Changa";
+    margin-top: -20px;
+}
+
+.img11 h3{
+    margin-left: 100px;
+    font-family: "Changa";
+    margin-top: -5px;
+  
+}
+
+.img11 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.img11 label{
+    margin-left: 95px;
+   font-family: "Changa";
+}
+
+.img11 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+}
+.img11 i{
+
+    margin-left: 35px;
+}
+
+.img11{
+    width: 250px;
+    height: 280px;
+    margin-left: 40px;
+    background-color:white;
+    
+    
 }
