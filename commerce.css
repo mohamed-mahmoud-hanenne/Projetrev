@@ -1,13 +1,17 @@
 .head{
     background-color: rgba(8, 8, 235, 0.59);
     font-family: 'Changa';
+    padding: 5px;
 }
 
 .logo{  
     color: aliceblue;
     margin-left: 30px;
-}
 
+}
+.title label{
+    margin-top: 50px;
+}
 .title i{
     color: orange;
 }
@@ -52,23 +56,31 @@
 
 .prod{
     width: 1330px;
-    height: 410px;
+    height: 430px;
     background-color:gainsboro;
     margin-top: 60px;
+    padding: 10px;
 }
 
 
 
 .img1{
     width: 250px;
-    height: 280px;
+    height: 320px;
     margin-left: 40px;
     background-color:white;
-    
-    
+    margin-top: 60px;
 }
 
 
+.img1 button{
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: -60px;
+}
 
 .img1 img{
     width: 130px;
@@ -82,22 +94,29 @@
 
 }
 .img1 i{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 35px;
 }
 
 .img2{
     width: 250px;
-    height: 280px;
+    height: 320px;
     background-color:white;
     margin-left: 500px;
-    margin-top: -280px;
+    margin-top: -320px;
+}
+
+.img2 button{
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: -60px;
 }
 
 .img2 .fa-solid{
     color:  rgba(8, 8, 235, 0.59);
- 
-
 }
 
 .img2 img{
@@ -108,7 +127,7 @@
 }
 
 .img2 i{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 50px;
 }
 
@@ -118,15 +137,21 @@
     margin-top: 15px;
 }
 
-
-
+.img3 button{
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: -60px;
+}
 
 .img3{
     width: 250px;
-    height: 300px;
+    height: 320px;
     background-color:white;
     margin-left: 1000px;
-    margin-top: -300px;
+    margin-top: -320px;
     
 }
 
@@ -141,7 +166,7 @@
  
 }
 .img3 i{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 70px;
 }
 
@@ -172,7 +197,7 @@
 .img1 h3{
     margin-left: 95px;
     font-family: 'Changa';
-   
+    margin-top: -10px;
 }
 
 .img2 label{
@@ -184,6 +209,7 @@
 .img2 h3{
     margin-left: 90px;
     font-family: 'Changa';
+    margin-top: -5px;
    
 }
 
@@ -194,8 +220,9 @@
 }
 
 .img3 h3{
-    margin-left: 110px;
+    margin-left: 100px;
     font-family: 'Changa';
+    margin-top: -5px;
    
 }
 
@@ -204,6 +231,7 @@
     height: 410px;
     background-color:gainsboro;
     margin-top: 60px;
+    padding: 10px;
 }
 
 .prm label{
@@ -237,6 +265,15 @@ margin-left: 500px;
   
 }
 
+.img11 button{
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 60px;
+    width: 150px;
+    height: 40px;
+    margin-top: -60px;
+}
+
 .img11 img{
     width: 130px;
     height: 110px;
@@ -254,15 +291,309 @@ margin-left: 500px;
  
 }
 .img11 i{
-
     margin-left: 35px;
+    margin-top: 20px;
 }
 
 .img11{
     width: 250px;
-    height: 280px;
+    height: 320px;
     margin-left: 40px;
     background-color:white;
+    margin-top: 60px;
+}
+
+.img12 h4{
+    text-decoration:line-through;
+    margin-left: 100px;
+    font-family: "Changa";
+    margin-top: -20px;
+}
+
+.img12 h3{
+    margin-left: 95px;
+    font-family: "Changa";
+    margin-top: -5px;
+  
+}
+
+.img12 button{
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 60px;
+    width: 150px;
+    height: 40px;
+    margin-top: -60px;
+}
+
+.img12 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.img12 label{
+    margin-left: 95px;
+   font-family: "Changa";
+}
+
+.img12 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+}
+.img12 i{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.img12{
+    width: 250px;
+    height: 320px;
+    background-color:white;
+    margin-left: 500px;
+    margin-top: -320px;
+}
+
+.img13{
+    width: 250px;
+    height: 318px;
+    background-color:white;
+    margin-left: 1000px;
+    margin-top: -320px;
     
+}
+
+.img13 label{
+    margin-left: 95px;
+   font-family: "Changa";
+}
+
+.img13 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+}
+.img13 i{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.img13 h4{
+    text-decoration:line-through;
+    margin-left: 100px;
+    font-family: "Changa";
+    margin-top: -20px;
+}
+
+.img13 h3{
+    margin-left: 95px;
+    font-family: "Changa";
+    margin-top: -5px;
+  
+}
+
+.img13 button{
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: -100px;
+}
+
+
+.img13 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+.com{
+    width: 1330px;
+    height: 410px;
+    background-color:gainsboro;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.cm label{
+    font-size: 30px;
+    color: white;
+}
+
+.cm{
+font-family: 'Changa';
+text-align: center;
+margin-top: 40px;
+border: 1px solid;
+border-radius: 15px;
+background-color: rgba(8, 8, 235, 0.59);
+width: 300px;
+height: 50px;
+margin-left: 500px;
+}
+
+.img111{
+    width: 250px;
+    height: 340px;
+    margin-left: 40px;
+    background-color:white;
+    margin-top: 40px;
+   padding: 10px;
+}
+
+.img111 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.ig1{
+    width: 220px;
+    height: 320px;
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
     
+}
+
+.img111 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+}
+.img111 i{
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.img111 h3{
+    margin-left: 70px;
+    font-family: "Changa";
+    margin-top: -5px;
+  
+}
+
+.img111 p{
+    margin-left: 30px;
+   font-family: "Changa";
+   margin-top: -5px;
+}
+
+
+.img112{
+    width: 250px;
+    height: 340px;
+    margin-left: 40px;
+    background-color:white;
+    margin-top: 50px;
+   padding: 10px;
+   margin-left: 500px;
+   margin-top: -360px;
+}
+
+.img112 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.ig2{
+    width: 220px;
+    height: 320px;
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.img112 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+}
+.img112 i{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.img112 h3{
+    margin-left: 70px;
+    font-family: "Changa";
+    margin-top: -5px;
+  
+}
+
+.img112 p{
+    margin-left: 30px;
+   font-family: "Changa";
+   margin-top: -5px;
+}
+
+
+.img113{
+    width: 250px;
+    height: 340px;
+    margin-left: 40px;
+    background-color:white;
+   padding: 10px;
+   margin-left: 1000px;
+   margin-top: -355px;
+}
+
+.img113 img{
+    width: 130px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.ig3{
+    width: 220px;
+    height: 320px;
+    border: 1px solid rgba(8, 8, 235, 0.59);
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.img113 .fa-solid{
+    color:  rgba(8, 8, 235, 0.59);
+ 
+}
+.img113 i{
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.img113 h3{
+    margin-left: 50px;
+    font-family: "Changa";
+    margin-top: -5px;
+  
+}
+
+.img113 p{
+    margin-left: 30px;
+   font-family: "Changa";
+   margin-top: -5px;
+}
+
+.cont{
+    width: 1330px;
+    height: 410px;
+    background-color:gainsboro;
+    margin-top: 60px;
+    padding: 10px;
 }
