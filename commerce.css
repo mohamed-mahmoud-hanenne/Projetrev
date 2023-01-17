@@ -82,7 +82,7 @@
 
 }
 .img1 i{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 35px;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .img2 i{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 50px;
 }
 
@@ -123,7 +123,7 @@
 
 .img3{
     width: 250px;
-    height: 280px;
+    height: 300px;
     background-color:white;
     margin-left: 1000px;
     margin-top: -300px;
@@ -141,7 +141,7 @@
  
 }
 .img3 i{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 70px;
 }
 
@@ -165,31 +165,37 @@
 
 .img1 label{
     margin-left: 60px;
+    font-family: 'Changa';
    
 }
 
 .img1 h3{
     margin-left: 95px;
+    font-family: 'Changa';
    
 }
 
 .img2 label{
-    margin-left: 60px;
+    margin-left: 40px;
+    font-family: 'Changa';
    
 }
 
 .img2 h3{
     margin-left: 90px;
+    font-family: 'Changa';
    
 }
 
 .img3 label{
     margin-left: 100px;
+    font-family: 'Changa';
    
 }
 
 .img3 h3{
     margin-left: 110px;
+    font-family: 'Changa';
    
 }
 
