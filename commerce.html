@@ -17,27 +17,40 @@
                 <i class="fa-solid fa-basket-shopping"></i>  
             </div>
             <div class="liens">
-                <a href="commerce.html">Acceuil</a>
-                <a href="#">Production</a>
-                <a href="#">Promotion</a>
-                <a href="#">Commentaire</a>
+                <a href="#Acceuil">Acceuil</a>
+                <a href="#Production">Production</a>
+                <a href="#Promotion">Promotion</a>
+                <a href="#Commentaire">Commentaire</a>
                 <a href="#">Contacts</a>
 
                 <div class="options">
-                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass" id="sharp"></i>
                     <i class="fa-sharp fa-solid fa-cart-arrow-down"></i>
-                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-user" id="user"></i>
+                </div>
+
+                <div class="search-prd">
+                   <input type="search" id="rech" placeholder="Rechercher ici">
+                  <label for="rech" class="fa-sharp fa-solid fa-magnifying-glass"></label>
+                </div>
+
+                <div class="login">
+                 <h2>Se connecter</h2>
+                 <input type="email" placeholder="Votre email" class="eml">
+                 <input type="password" placeholder="Votre mot de passe" class="eml">
+                 <input type="submit" value="Connecter" class="btn">
                 </div>
             </div>
     </header>
 </div>
 
  <div class="sous-head">
-     <img src="images/macbook-606763_1920.jpg">
+     <!-- <img src="images/macbook-606763_1920.jpg"> -->
      <!-- <p class="par">Chercher vos matériels informatique</p> -->
  </div>
 
-  <div class="pro"><label>Nos Productions</label></div>
+  <div class="pro"><label>Nos <h4>Productions</h4></label></div>
  <div class="prod">
    
    <div class="img1" > 
@@ -71,13 +84,13 @@
     </div>
  </div>
 
-<div class="prm"><label>Nos promotions</label></div>
+<div class="prm"><label>Nos <h4>Promotions</h4></label></div>
  <div class="prom">
     <div class="img11"> 
         <img src="images/printer-790396_1920.jpg">
         <label class="nom">imprimante</label>
-        <h3 class="PR">7000DH</h3>
-        <h4 class="PR">18000DH</h4>
+        <h3 class="PR">8000DH</h3>
+        <h4 class="PR">10000DH</h4>
         <button>Ajouter au panier</button>
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
@@ -111,7 +124,7 @@
       </div>
  </div>
 
- <div class="cm"><label>Commentaire</label></div>
+ <div class="cm"><label>Nos <h4>Commentaire</h4> </label></div>
  <div class="com">
     <div class="img111"> 
         <div class="ig1">
@@ -163,5 +176,6 @@
  <div class="cont">
     
  </div>
+ <script src="commerce.js"></script>
 </body>
 </html>

@@ -1,9 +1,101 @@
 .head{
-    background-color: rgba(8, 8, 235, 0.59);
+    /* background-color: rgba(8, 8, 235, 0.59); */
+    background-color: blueviolet;
     font-family: 'Changa';
     padding: 5px;
+    position: fixed;
+    width: 1325px;
+    
 }
 
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
+
+
+.head .search-prd{
+    position: absolute;
+    margin-left: 400px; 
+    margin-top: 20px;
+    overflow: hidden;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    right: -110%;
+}
+
+input[type="search"]{
+    width: 350px;
+}
+.head .search-prd.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+.search-prd .fa-sharp{
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.search-prd .fa-sharp:hover{
+color: blueviolet;
+}
+
+.head .login{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 300px;
+    height: 250px;
+    right: -110%;
+    margin-top: 10px;
+}
+.head .login h2{
+    text-align: center;
+}
+.head .login.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+
+.head input[type="submit"]{
+    width: 150px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 25px;
+    border: 4rem;
+    
+}
+
+.head input[type="email"]{
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: .5rem;
+    
+   
+}
+
+.head input[type="password"]{
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: .5rem;
+     
+}
+
+.head input[type="submit"]:hover{
+    background-color: blueviolet;
+}
 .logo{  
     color: aliceblue;
     margin-left: 30px;
@@ -17,23 +109,28 @@
 }
 
 .liens {
-    margin-left: 600px;
+    margin-left: 550px;
    
 }
 .liens a{
     text-decoration: none;
     margin: 20px;
     color: aliceblue;
-    
+    margin-left: -1px;
+}
+
+.fa-bars{
+    display: none;
 }
 .options{
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: -35px;
 }
 
 .options i{
     margin: 10px;
     color: aliceblue;
+    margin-left: 20px;
 }
 
 
@@ -41,6 +138,12 @@
     width: 1330px;
     height: 400px;
     margin: 5px;
+    display: flex;
+    align-items: center;
+    background: url(./images/macbook-606763_1920.jpg) no-repeat;
+    background-position: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .sous-head p{
@@ -51,6 +154,7 @@
 .sous-head img{
     width: 1330px;
     height: 400px;
+    margin-top: 70px;
 
 }
 
@@ -74,7 +178,7 @@
 
 
 .img1 button{
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 50px;
     width: 150px;
@@ -89,7 +193,7 @@
     margin-top: 20px;
 }
 .img1 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 
 }
@@ -107,7 +211,7 @@
 }
 
 .img2 button{
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 50px;
     width: 150px;
@@ -116,7 +220,7 @@
 }
 
 .img2 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
 }
 
 .img2 img{
@@ -138,7 +242,7 @@
 }
 
 .img3 button{
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 50px;
     width: 150px;
@@ -162,30 +266,31 @@
     margin-top: 20px;
 }
 .img3 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 }
 .img3 i{
     margin-top: 40px;
     margin-left: 70px;
 }
-
 .pro{
+    padding: 10px;
     font-family: 'Changa';
     text-align: center;
-    margin-top: 60px;
-    border: 1px solid;
-    border-radius: 15px;
-    background-color: rgba(8, 8, 235, 0.59);
-    width: 300px;
-    height: 50px;
-    margin-left: 500px;
+    margin-left: -10px;
+}
+.pro label{
+    color: black;
+    font-size: 30px;
+
 }
 
-.pro label{
-    font-size: 30px;
-    color: white;
-   
+.pro h4{
+   background-color: blueviolet;
+   color: #fff;
+   display: inline-block;
+   padding: 10px;
+   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
 
 .img1 label{
@@ -234,21 +339,24 @@
     padding: 10px;
 }
 
+.prm{
+    padding: 10px;
+    font-family: 'Changa';
+    text-align: center;
+    margin-left: -10px;
+}
 .prm label{
+    color: black;
     font-size: 30px;
-    color: white;
+
 }
 
-.prm{
-font-family: 'Changa';
-text-align: center;
-margin-top: 40px;
-border: 1px solid;
-border-radius: 15px;
-background-color: rgba(8, 8, 235, 0.59);
-width: 300px;
-height: 50px;
-margin-left: 500px;
+.prm h4{
+   background-color: blueviolet;
+   color: #fff;
+   display: inline-block;
+   padding: 10px;
+   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
 
 .img11 h4{
@@ -266,7 +374,7 @@ margin-left: 500px;
 }
 
 .img11 button{
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 60px;
     width: 150px;
@@ -287,7 +395,7 @@ margin-left: 500px;
 }
 
 .img11 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 }
 .img11 i{
@@ -318,7 +426,7 @@ margin-left: 500px;
 }
 
 .img12 button{
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 60px;
     width: 150px;
@@ -339,7 +447,7 @@ margin-left: 500px;
 }
 
 .img12 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 }
 .img12 i{
@@ -370,7 +478,7 @@ margin-left: 500px;
 }
 
 .img13 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 }
 .img13 i{
@@ -393,7 +501,7 @@ margin-left: 500px;
 }
 
 .img13 button{
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 50px;
     width: 150px;
@@ -418,21 +526,24 @@ margin-left: 500px;
     padding: 10px;
 }
 
+.cm{
+    padding: 10px;
+    font-family: 'Changa';
+    text-align: center;
+    margin-left: -10px;
+}
 .cm label{
+    color: black;
     font-size: 30px;
-    color: white;
+
 }
 
-.cm{
-font-family: 'Changa';
-text-align: center;
-margin-top: 40px;
-border: 1px solid;
-border-radius: 15px;
-background-color: rgba(8, 8, 235, 0.59);
-width: 300px;
-height: 50px;
-margin-left: 500px;
+.cm h4{
+   background-color: blueviolet;
+   color: #fff;
+   display: inline-block;
+   padding: 10px;
+   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
 
 .img111{
@@ -456,7 +567,7 @@ margin-left: 500px;
 .ig1{
     width: 220px;
     height: 320px;
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 10px;
     margin-top: 10px;
@@ -464,7 +575,7 @@ margin-left: 500px;
 }
 
 .img111 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 }
 .img111 i{
@@ -509,7 +620,7 @@ margin-left: 500px;
 .ig2{
     width: 220px;
     height: 320px;
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 10px;
     margin-top: 10px;
@@ -517,7 +628,7 @@ margin-left: 500px;
 }
 
 .img112 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 }
 .img112 i{
@@ -561,7 +672,7 @@ margin-left: 500px;
 .ig3{
     width: 220px;
     height: 320px;
-    border: 1px solid rgba(8, 8, 235, 0.59);
+    border: 1px solid blueviolet;
     border-radius: 15px;
     margin-left: 10px;
     margin-top: 10px;
@@ -569,7 +680,7 @@ margin-left: 500px;
 }
 
 .img113 .fa-solid{
-    color:  rgba(8, 8, 235, 0.59);
+    color:  blueviolet;
  
 }
 .img113 i{
