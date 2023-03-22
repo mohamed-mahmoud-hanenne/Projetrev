@@ -708,3 +708,21 @@ color: blueviolet;
     margin-top: 60px;
     padding: 10px;
 }
+
+ .head .shop{
+     margin-left: 80%;
+    margin-top: -10%;
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: none;
+   
+}  
+
+.head .shop.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+
+

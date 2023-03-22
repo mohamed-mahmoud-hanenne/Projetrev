@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAURI</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="commerce.css">
 </head>
@@ -17,16 +17,16 @@
                 <i class="fa-solid fa-basket-shopping"></i>  
             </div>
             <div class="liens">
-                <a href="#Acceuil">Acceuil</a>
-                <a href="#Production">Production</a>
-                <a href="#Promotion">Promotion</a>
-                <a href="#Commentaire">Commentaire</a>
+                <a href="Acceuil">Acceuil</a>
+                <a href="" class="a2" id="Pr">Production</a>
+                <a href="Promotion">Promotion</a>
+                <a href="Commentaire">Commentaire</a>
                 <a href="#">Contacts</a>
 
                 <div class="options">
-                    <i class="fa-solid fa-bars"></i>
+                    <!-- <i class="fa-solid fa-bars"></i> -->
                     <i class="fa-sharp fa-solid fa-magnifying-glass" id="sharp"></i>
-                    <i class="fa-sharp fa-solid fa-cart-arrow-down"></i>
+                    <i class="fa-sharp fa-solid fa-cart-arrow-down" id="shp"></i>
                     <i class="fa-solid fa-user" id="user"></i>
                 </div>
 
@@ -41,6 +41,12 @@
                  <input type="password" placeholder="Votre mot de passe" class="eml">
                  <input type="submit" value="Connecter" class="btn">
                 </div>
+                
+                <div class="shop">
+                    <label>Votre panier est vide</label>
+                </div>
+            
+
             </div>
     </header>
 </div>
@@ -48,12 +54,16 @@
  <div class="sous-head">
      <!-- <img src="images/macbook-606763_1920.jpg"> -->
      <!-- <p class="par">Chercher vos matériels informatique</p> -->
+
  </div>
 
   <div class="pro"><label>Nos <h4>Productions</h4></label></div>
+  <!-- <button class="btn"></button> -->
+ 
  <div class="prod">
    
    <div class="img1" > 
+
       <img src="images/imac-1999636_1920.png">
       <label class="nom">Ordainateur & Tablette</label>
       <h3 class="PR">7000DH</h3>
