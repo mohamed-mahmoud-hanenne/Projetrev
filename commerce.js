@@ -10,14 +10,31 @@ document.querySelector('#user').onclick = () =>{
     login.classList.toggle('active');
 }
 
-let pr = document.querySelector(".a2");
 
-pr.onclick = function() {
-    location.href = "/#Pr";
-}
+
+
 
 let shpg = document.querySelector('.shop');
 
 document.querySelector('#shp').onclick = () =>{
     shpg.classList.toggle('active');
+}
+
+let bout = document.querySelector('.bttn');
+
+window.onscroll = function() {
+    if(window.scrollY >= 1000){
+        bout.style = "display = block", "float = right" ;
+    }
+    else {
+        bout.style.display = "none";
+    }
+}
+
+bout.onclick = function() {
+  window.scrollTo({
+    top:0,
+    left : 0,
+    behavior : "smooth"
+  })
 }

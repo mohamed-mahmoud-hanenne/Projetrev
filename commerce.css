@@ -725,4 +725,15 @@ color: blueviolet;
     transition: .4s linear;
 }
 
+.bttn{
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    margin-top: -150px;
+    position: fixed;
+    right: 10px;
+}
+
 
