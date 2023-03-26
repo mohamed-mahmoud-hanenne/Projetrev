@@ -707,6 +707,7 @@ color: blueviolet;
     background-color:gainsboro;
     margin-top: 60px;
     padding: 10px;
+    
 }
 
  .head .shop{
@@ -737,3 +738,44 @@ color: blueviolet;
 }
 
 
+.anim{
+    width: 1400px;
+    height: 500px;
+    background-image: url(images/mac.jpg);
+    
+    animation-name: animation-div;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes animation-div{
+    0%{
+        background-image: url(images/pc.jpg);
+    }
+    25%{
+        background-image: url(images/jeans-428614_1920.jpg);
+    }
+
+    50%{
+        background-image: url(images/books-1163695_1920.jpg);
+    }
+    75%{
+        background-image: url(images/laptop-1483974_1920.jpg);
+    }
+    100%{
+        background-image: url(images/mac.jpg);
+    }
+
+
+}
+
+footer{
+
+        width: 1330px;
+        height: 410px;
+        background-color:gainsboro;
+        margin-top: 60px;
+        padding: 10px;
+        
+}
