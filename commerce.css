@@ -8,6 +8,7 @@
     
 }
 
+
 @media (max-width:991px){
     html{
         font-size: 55%;
@@ -20,6 +21,9 @@
     }
 }
 
+.sous-head{
+   
+}
 
 .head .search-prd{
     position: absolute;
@@ -739,7 +743,7 @@ color: blueviolet;
 
 
 .anim{
-    width: 1400px;
+    width: 1300px;
     height: 500px;
     background-image: url(images/mac.jpg);
     
