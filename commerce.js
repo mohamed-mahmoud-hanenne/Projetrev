@@ -38,3 +38,39 @@ bout.onclick = function() {
     behavior : "smooth"
   })
 }
+
+
+// use location href
+
+let prod  = document.querySelector(".a2");
+
+
+prod.onclick = function(){
+    location.href = "#prod";
+}
+
+
+let promt = document.querySelector(".a3");
+
+
+promt.onclick = function(){
+    location.href = "#promotion";
+}
+
+
+let cmt = document.querySelector(".a4");
+
+//use window open 
+cmt.onclick = function(){
+    // location.href = "#commentaire";
+    window.open("#commentaire", "_self");
+}
+
+
+let cont = document.querySelector(".a5");
+
+
+cont.onclick = function(){
+    // location.href = "#contact";
+    window.open("#contact", "_self");
+}

@@ -123,6 +123,9 @@ color: blueviolet;
     margin-left: -1px;
 }
 
+.liens a:hover{
+    cursor: pointer;
+}
 .fa-bars{
     display: none;
 }
